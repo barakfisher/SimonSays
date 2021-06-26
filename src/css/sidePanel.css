@@ -1,0 +1,17 @@
+body .side-panel {
+  width: 250px;
+  padding: 16px 16px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+body .side-panel .high-scores .title {
+  text-decoration: underline;
+}
+body .side-panel .high-scores .name {
+  font-size: 14px;
+}
+body .side-panel .high-scores .score,
+body .side-panel .high-scores .date {
+  color: #adabab;
+}

@@ -1,0 +1,12 @@
+body .navbar {
+  height: 56px;
+  background: #e5eeff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  font-weight: 600;
+}
+body .navbar .nav-title {
+  color: #666;
+}
+body .navbar .nav-item {
+  margin-left: 16px;
+}

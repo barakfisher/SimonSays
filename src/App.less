@@ -1,0 +1,34 @@
+@import "./constants.less";
+body {
+  color: #666;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  .main-container {
+    color: @gray;
+    height: calc(100vh - @navbarHeight);
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .App {
+    background-color: @whiteBlue;
+
+    .row {
+      margin: 0 !important;
+    }
+    .p-16 {
+      padding: @space1*2 0;
+    }
+    .p-0 {
+      padding: 0;
+    }
+    .ml-auto {
+      margin-left: auto;
+    }
+    .m-auto {
+      margin: auto;
+    }
+  }
+}

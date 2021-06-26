@@ -1,0 +1,51 @@
+@import "../constants.less";
+
+body {
+  .bord-container {
+    font-weight: 600;
+    border: @border;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .overlay {
+      width: 100%;
+      height: calc(100vh - @navbarHeight);
+      background: rgba(0, 0, 0, 0.05);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .bord {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 350px;
+    }
+  }
+  .play-btn {
+    height: 120px;
+    width: 120px;
+    background: #d4e3ff;
+    border-radius: 100%;
+    font-size: 35px;
+    border:none;
+    box-shadow: 0 0 6px 0 #afafaf;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+    &:hover{
+      box-shadow: 0 0 12px 0 #afafaf;
+    }
+    .text{
+      color:#007bff;
+      width: 100%;
+      align-items: center;
+      transform: translateY(-4px);
+      text-shadow: 0 0 12px white;
+      
+    }
+  }
+}

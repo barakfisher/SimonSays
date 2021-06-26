@@ -1,0 +1,25 @@
+.about-container {
+  height: calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-container .my-card {
+  background: #f1f4f9;
+  box-shadow: 0 0 12px 0 #767676;
+  padding: 56px 88px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about-container .my-card ul {
+  margin-top: 56px;
+  padding: 0;
+  list-style: none;
+}
+.about-container .my-card ul li {
+  margin: 4px 0;
+}
+.about-container .my-card ul li .list-icon {
+  margin-right: 16px;
+}

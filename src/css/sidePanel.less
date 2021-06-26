@@ -1,0 +1,22 @@
+@import "../constants.less";
+
+body {
+  .side-panel {
+   width:@sidePanelWidth;
+   padding: 16px 16px;
+   display: flex;
+   flex-direction: column;
+   font-weight: 600;
+   .high-scores{
+     .title{     
+      text-decoration: underline;
+     }
+     .name{
+      font-size: 14px;
+     }
+     .score, .date{
+       color:#adabab;
+     }    
+   }
+  }
+}

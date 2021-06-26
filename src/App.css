@@ -1,0 +1,31 @@
+body {
+  color: #666;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+body .main-container {
+  color: #666;
+  height: calc(100vh - 56px);
+  width: 100%;
+  overflow: hidden;
+}
+body .App {
+  background-color: #f4f8ff;
+}
+body .App .row {
+  margin: 0 !important;
+}
+body .App .p-16 {
+  padding: 16px 0;
+}
+body .App .p-0 {
+  padding: 0;
+}
+body .App .ml-auto {
+  margin-left: auto;
+}
+body .App .m-auto {
+  margin: auto;
+}
