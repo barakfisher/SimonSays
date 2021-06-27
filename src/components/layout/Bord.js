@@ -69,11 +69,13 @@ const Bord = () => {
         })
       })
     }
+   // eslint-disable-next-line 
   }, [userSequenceArr]);
 
   // Will trigger on each sequenceArr change
   useEffect(() => {
     showClicks();
+    // eslint-disable-next-line 
   }, [sequenceArr]);
 
   // Create artificial delay for ui
@@ -126,6 +128,7 @@ const Bord = () => {
       setIsBord(false);
       setIsGameOver(false);
     }
+// eslint-disable-next-line 
   }, [isGameOver]);
 
   // Will trigger on PLAY btn click
@@ -137,6 +140,7 @@ const Bord = () => {
         }
       }, 500);
     }
+    // eslint-disable-next-line 
   }, [isBord]);
 
   // Buttons arr
@@ -164,7 +168,7 @@ const Bord = () => {
             {buttonsArr.map(({ color, id }) => {
               const isActive = currentPressed === id;
               return (
-                <GameBtn id={id} activeColor={color} isActive={isActive} />
+                <GameBtn id={id} activeColor={color} isActive={isActive} key={`btn-${id}`}/>
               );
             })}
           </div>
